@@ -26,3 +26,5 @@ WEKA Files:
 
 1. Decison tree + hyperparameter tuning (j48)
 2. Random forest + hyperparameter tuning
+
+Note: The WEKA software will need to be downloaded to view the code and results on WEKA.
