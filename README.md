@@ -5,9 +5,9 @@ Abstract
 
 Study objective: The outbreak of COVID-19 has become a global public health threat. The influx of COVID-19 patients to the hospital has caused a prolonged emergency department (ED) length of stay (LOS) in the United States. Our objective is to develop a reliable prediction model for COVID-19 patient ED LOS and identify factors associated with a LOS of "4-hour target".
 
-Methods: Data were collected from a community hospital in Detroit for all COVID-19 patients’ ED presentations between March 1 and April 30, 2020. Decision tree (DT) and random forest (RF) models are trained to predict COVID-19 patients with an ED LOS less or greater than 4 hours. 10-fold cross-validation is employed to evaluate the performance of the models. 
+Methods: Data were collected from a community hospital in Detroit for all COVID-19 patients’ ED presentations between March 1 and April 30, 2020. Decision tree (DT) and random forest (RF) models are trained to predict COVID-19 patients with an ED LOS less or greater than 4 hours. 10-fold cross-validation was employed to evaluate the performance of the models. 
 
-Results: The data on 536 COVID-19 patients with known LOS at the ED are used in this analysis. The RF model performance outperforms the DT one with an overall accuracy of 77% (i.e., F-1 score of 0.772 for ED LOS <4hrs and 0.765 for ED LOS >=4hrs). No significant accuracy gains are achieved through further splits. Results illustrate chronic kidney disease, age, oxygen flow, and hypertension as significant factors associated with prolonged COVID-19 patients’ LOS.
+Results: The data on 536 COVID-19 patients with known LOS at the ED were used for this analysis. The RF model performance outperforms the DT one with an overall accuracy of 77% (i.e., F-1 score of 0.772 for ED LOS <4hrs and 0.765 for ED LOS >=4hrs). No significant accuracy gains were achieved through further splits. Results illustrate chronic kidney disease, age, oxygen flow, and hypertension as significant factors associated with prolonged COVID-19 patients’ LOS.
 
 Conclusion: We applied machine learning models (i.e., DT and RF) to predict COVID-19 patients’ ED LOS. The models can serve as a decision-support tool to help ED managers and clinicians with hospital resource planning and inform patients with better ED LOS estimations.
 
